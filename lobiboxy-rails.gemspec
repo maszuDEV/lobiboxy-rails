@@ -8,19 +8,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Marcin Szulc']
   spec.email         = ['maszudev@gmail.com']
 
-  spec.summary       = 'Lobiboxy js lib for Rails5'
-  spec.description   = ''
-  spec.homepage      = ''
+  spec.summary       = 'Lobibox.js lib importer for Rails5'
+  spec.description   = 'Lobibox.js lib importer for Rails5'
+  spec.homepage      = 'https://github.com/maszuDEV/lobiboxy-rails'
   spec.license       = 'MIT'
-
-  # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
-  # to allow pushing to a single host or delete this section to allow pushing to any host.
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
-  else
-    raise 'RubyGems 2.0 or newer is required to protect against ' \
-      'public gem pushes.'
-  end
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
